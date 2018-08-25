@@ -88,8 +88,8 @@ func main() {
 	}
 
 	// Set a random tag if the user didnt specify one
-	if *tag == "999GOPOW9<pow>9<random>" {
-		*tag = "999GOPOW9" + strings.ToUpper(name) + "9" + randomTag
+	if *tag == "999FORZAJUVENTUS9<pow>9<random>" {
+		*tag = "999FORZAJUVENTUS9" + strings.ToUpper(name) + "9" + randomTag
 	}
 
 	ttag, err := giota.ToTrytes(*tag)
